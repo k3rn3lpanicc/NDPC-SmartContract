@@ -1,12 +1,27 @@
 # Storage Space needs
 
-
+- cep78_metadatas : `Map<token_id => token_metadata>`
+- publishers : `List<account-hash>`
+- producers : `List<account-hash>`
+- total_supply : ?
 
 # EntryPoints (Functions)
 
 - mint (`meta_data`, `number_of_copies`) : Only Producers can mint NFTs and it will be minted to their account
 
-- approve (`token_id?`, `publisher_id or publisher_address`, `amount_of_tokens`) : approves for the publisher to sell specific amount of NFTs of the producer
+- approve (`token_ids?`, `publisher_account_hash`, `amount_of_tokens`) : approves for the publisher to sell specific amount of NFTs of the producer
+- add_producer (`producer_account_hash`) : add a new producer to `producers` list
+
+- remove_producer (`producer_account_hash`) : remove the producer from list
+
+- get_metadata(`token_id`) : returns the metadata (as `String`) of the NFT token
+- balance_of (`owner : Key` , `token_id`)
+
+- owner_of (`token_id`) : returns the `Account-Hash` that owns that token
+
+- total_supply() : returns total number of minted NFTs untill now
+
+- transfer_from (`sender` , `token_id` , `count`)
 
 
 
@@ -42,10 +57,10 @@ Two possible things :
 - Mint high amount of NFTs with low cost
 - Find a way to put the actual data representation (not metadata) on a p2p file storage and link it to the actual product (should we support multiple services?)
 - Find a way to test contract without multiple deploys (It's pain in A:) )
-
+- Find the documentation related to gas price in casper
 
 # Questions (Issues)
 - Are publishers the ones who transfer NFTs or are users who request to transfer the nft by publishers? I think the second one is more rational
-
+- Can the producers sell their product themselves ? 
 
 # Done So far
