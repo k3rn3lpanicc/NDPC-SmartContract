@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T20:49:23.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Iyh4xYF1KA4nTTrg11ya" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T21:08:21.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PEY0Rmxk_zLQ2vNGbaX8" version="20.5.3" type="github">
   <diagram id="slPfWzJpBYyBcs_0Y2tc" name="Page-1">
     <mxGraphModel dx="2073" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,8 +225,41 @@
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-82" value="&lt;b&gt;&lt;u&gt;1)&lt;/u&gt;&lt;/b&gt; Adds number to &lt;br&gt;total_supply&lt;br&gt;&lt;b&gt;&lt;u&gt;2)&lt;/u&gt;&lt;/b&gt; Creates Metadata hash &lt;br&gt;and adds it to Metadatas&lt;br&gt;&lt;b&gt;&lt;u&gt;3)&lt;/u&gt;&lt;/b&gt;Adds &amp;lt;Metadatahash , 0&amp;gt;&lt;br&gt;to users_cnt&lt;br&gt;&lt;b&gt;&lt;u&gt;4)&lt;/u&gt;&lt;/b&gt;Creates NFTHolder and &lt;br&gt;adds it to the list of &lt;br&gt;accounts NFTHolders&lt;br&gt;(&lt;u&gt;if the list didn&#39;t exist,&lt;br&gt;&amp;nbsp;it would create it first&lt;/u&gt;)" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;labelPosition=center;verticalLabelPosition=middle;html=1;" vertex="1" parent="1">
           <mxGeometry x="2456" y="957.5" width="265" height="276" as="geometry" />
         </mxCell>
-        <mxCell id="FFQsLvCmIjyaZJ9t75WD-83" value="Approves ??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=20;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="428" y="-33" width="130" height="36" as="geometry" />
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-84" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="736.5" width="471" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-85" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=46;" edge="1" parent="1" source="FFQsLvCmIjyaZJ9t75WD-86" target="FFQsLvCmIjyaZJ9t75WD-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-86" value="allowances" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="735" width="112" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-87" value="Account-Hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="772" width="137" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-88" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;curved=1;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="687.4999999999995" y="789" as="sourcePoint" />
+            <mxPoint x="793.5" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-89" value="List&amp;lt;ApprovedNFT&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;glass=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="788" y="772" width="188" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-90" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="115.5" y="797" width="20" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-91" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=46;" edge="1" parent="1" source="FFQsLvCmIjyaZJ9t75WD-92" target="FFQsLvCmIjyaZJ9t75WD-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-92" value="ApprovedNFT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-47.5" y="772" width="136" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-93" value="NFTHolder : 40 bytes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="138" y="811" width="199" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-94" value="owner account-hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="859" width="189" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
