@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T21:20:45.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5yNqtDNQJk6-z6VHmw7E" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T21:25:15.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JsTh5j9xNEKBwiRfwZPc" version="20.5.3" type="github">
   <diagram id="slPfWzJpBYyBcs_0Y2tc" name="Page-1">
     <mxGraphModel dx="2073" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,10 +274,10 @@
           <mxGeometry x="1849" y="1368" width="301" height="141" as="geometry" />
         </mxCell>
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-99" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=20;fillColor=none;gradientColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="2444" y="1286.13" width="265" height="304.75" as="geometry" />
+          <mxGeometry x="2445" y="1350" width="274" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="FFQsLvCmIjyaZJ9t75WD-100" value="1) Removes the amount&amp;nbsp;&lt;br&gt;from the owners" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;labelPosition=center;verticalLabelPosition=middle;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2456" y="1408.5" width="237" height="60" as="geometry" />
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-100" value="1) Removes the amount&amp;nbsp;&lt;br&gt;from the owners *&lt;br&gt;2)Creates ApprovedNFT&amp;nbsp;&lt;br&gt;and changes allowances list&lt;br&gt;3)Change approved list" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;labelPosition=center;verticalLabelPosition=middle;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2455" y="1370" width="267" height="132" as="geometry" />
         </mxCell>
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-101" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="503" y="876.5" width="471" height="102" as="geometry" />
@@ -299,6 +299,18 @@
         </mxCell>
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-106" value="List&amp;lt;ApprovedNFT&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;strokeWidth=1;rounded=1;glass=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="778" y="912" width="188" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-107" value="" style="curved=1;endArrow=classic;html=1;rounded=1;sketch=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2621" y="1411" as="sourcePoint" />
+            <mxPoint x="2814" y="1289" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2786" y="1408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-108" value="If the amount reached 0, remove that key from dict" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2793" y="1247.88" width="465" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
