@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T21:25:15.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JsTh5j9xNEKBwiRfwZPc" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T21:25:47.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="52maOP5H2O4aRMcNPrrp" version="20.5.3" type="github">
   <diagram id="slPfWzJpBYyBcs_0Y2tc" name="Page-1">
     <mxGraphModel dx="2073" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,7 +276,7 @@
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-99" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=20;fillColor=none;gradientColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="2445" y="1350" width="274" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="FFQsLvCmIjyaZJ9t75WD-100" value="1) Removes the amount&amp;nbsp;&lt;br&gt;from the owners *&lt;br&gt;2)Creates ApprovedNFT&amp;nbsp;&lt;br&gt;and changes allowances list&lt;br&gt;3)Change approved list" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;labelPosition=center;verticalLabelPosition=middle;html=1;" vertex="1" parent="1">
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-100" value="&lt;b&gt;&lt;u&gt;1)&lt;/u&gt;&lt;/b&gt; Removes the amount&amp;nbsp;&lt;br&gt;from the owners *&lt;br&gt;&lt;b&gt;&lt;u&gt;2)&lt;/u&gt;&lt;/b&gt;Creates ApprovedNFT&amp;nbsp;&lt;br&gt;and changes allowances list&lt;br&gt;&lt;b&gt;&lt;u&gt;3)&lt;/u&gt;&lt;/b&gt;Change approved list" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;labelPosition=center;verticalLabelPosition=middle;html=1;" vertex="1" parent="1">
           <mxGeometry x="2455" y="1370" width="267" height="132" as="geometry" />
         </mxCell>
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-101" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
