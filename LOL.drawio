@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T20:04:28.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="d724H_3R1NW8tjSeZpO1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T20:49:23.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Iyh4xYF1KA4nTTrg11ya" version="20.5.3" type="github">
   <diagram id="slPfWzJpBYyBcs_0Y2tc" name="Page-1">
     <mxGraphModel dx="2073" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,6 +200,33 @@
         </mxCell>
         <mxCell id="FFQsLvCmIjyaZJ9t75WD-64" value="" style="shape=card;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=27;fillColor=none;gradientColor=default;" vertex="1" parent="1">
           <mxGeometry x="1042.5" y="40.5" width="148" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-73" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=27;fillColor=none;gradientColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="800" width="170" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-74" value="Functionality" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=39;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="1907" y="853" width="261" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-81" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="FFQsLvCmIjyaZJ9t75WD-75" target="FFQsLvCmIjyaZJ9t75WD-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-75" value="Mint" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=24;fillColor=none;gradientColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2233" y="1059" width="73" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="FFQsLvCmIjyaZJ9t75WD-77" target="FFQsLvCmIjyaZJ9t75WD-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-77" value="name : String&lt;br style=&quot;font-size: 20px;&quot;&gt;token_uri : String&lt;br style=&quot;font-size: 20px;&quot;&gt;checksum : String&lt;br style=&quot;font-size: 20px;&quot;&gt;number : u64" style="shape=card;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=20;fillColor=none;gradientColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1923" y="1025" width="227" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-80" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=default;fontSize=20;fillColor=none;gradientColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2444" y="943.13" width="265" height="304.75" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-82" value="&lt;b&gt;&lt;u&gt;1)&lt;/u&gt;&lt;/b&gt; Adds number to &lt;br&gt;total_supply&lt;br&gt;&lt;b&gt;&lt;u&gt;2)&lt;/u&gt;&lt;/b&gt; Creates Metadata hash &lt;br&gt;and adds it to Metadatas&lt;br&gt;&lt;b&gt;&lt;u&gt;3)&lt;/u&gt;&lt;/b&gt;Adds &amp;lt;Metadatahash , 0&amp;gt;&lt;br&gt;to users_cnt&lt;br&gt;&lt;b&gt;&lt;u&gt;4)&lt;/u&gt;&lt;/b&gt;Creates NFTHolder and &lt;br&gt;adds it to the list of &lt;br&gt;accounts NFTHolders&lt;br&gt;(&lt;u&gt;if the list didn&#39;t exist,&lt;br&gt;&amp;nbsp;it would create it first&lt;/u&gt;)" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;labelPosition=center;verticalLabelPosition=middle;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2456" y="957.5" width="265" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="FFQsLvCmIjyaZJ9t75WD-83" value="Approves ??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=20;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="428" y="-33" width="130" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
