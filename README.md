@@ -5,6 +5,7 @@
 - producers : `List<account-hash>`
 - total_supply : ?
 
+
 # EntryPoints (Functions)
 
 - mint (`meta_data`, `number_of_copies`) : Only Producers can mint NFTs and it will be minted to their account
@@ -21,7 +22,7 @@
 
 - total_supply() : returns total number of minted NFTs untill now
 
-- transfer_from (`sender` , `token_id` , `count`)
+- transfer_from (`sender` , `reciver` , `token_id`  , `count`)
 
 
 
@@ -50,7 +51,7 @@ Two possible things :
 - disallow : get back the approvment from a publisher (ban them from selling Producers)
 -
 
-# Challenges
+# Challenges and TODOs
 
 - How to transfer money (token) with smart contract on casper network
 - Build this SC(Smart Contract) with minimum amount of calculations and storage usage
@@ -58,9 +59,17 @@ Two possible things :
 - Find a way to put the actual data representation (not metadata) on a p2p file storage and link it to the actual product (should we support multiple services?)
 - Find a way to test contract without multiple deploys (It's pain in A:) )
 - Find the documentation related to gas price in casper
+- Revert the mint request if the metadata was not valid (in cep47 format)
 
 # Questions (Issues)
 - Are publishers the ones who transfer NFTs or are users who request to transfer the nft by publishers? I think the second one is more rational
 - Can the producers sell their product themselves ? 
+- Companies should be able to monitor which one ?
+    - Each token is owned by who (list of accounts) OR
+    - Each token is owned by how many accounts ?
 
 # Done So far
+- Created Structs `NFTHolder`, `NFTMetadata`, `ApprovedNFT` , `MetadataHash` and functionalities (like finding hash of metadata and represent it as string (hexadecimal)) and implemented `to_bytes` and `from_bytes` for them to be able to put them in dictionaries and read them after wards
+- Tested above functionalities in testnet and optimized the code
+- Created the storage and functionalities model(blueprint) in draw.io (the file is in this repo). I'm trying to fulfill all the needs with smallest amount of storage and calculations needed. (This part is not done completely yet)
+- Tested session/contract code for transfering tokens from contract purse to account and vice versa.
